@@ -31,7 +31,7 @@ result1 = check_file_integrity(baseline_hash, test_hash_1)
 print(f"Status: {result1}")
 
 # Case 2: Testing a altered file
-test_hash_2 = "e99a18c428cb38d5f260853678922e03"
+test_hash_2 = "a11b22c334dd55ee66ff77gg88hh99ii"
 print("\n[Test 2] Checking modified system file...")
 result2 = check_file_integrity(baseline_hash, test_hash_2)
 print(f"Status: {result2}")
