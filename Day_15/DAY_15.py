@@ -20,7 +20,7 @@ try:
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # Set a timeout so the script doesn't hang indefinitely if the port is closed
-    client_socket.settimeout(50.0)
+    client_socket.settimeout(2.0)
     
     # 2. Attempt to connect to the target (Will fail safely if no server is listening)
     client_socket.connect((target_host, target_port))
